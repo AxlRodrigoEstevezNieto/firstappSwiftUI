@@ -11,7 +11,7 @@ import SwiftUI
 struct swiftUIAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(dismisAction: {})
         }
     }
 }
